@@ -273,7 +273,7 @@ html, body {
     display: flex;
     gap: 0.9375rem;
     height: 20.6875rem;
-    background: no-repeat 50% 50% url(assets/bg@2x.png);
+    background: no-repeat 50% 50% url(assets/bg_2x.webp);
     /*background-size: cover;*/
     background-size: 1260px;
     border-radius: 1.25rem;
@@ -454,29 +454,30 @@ html, body {
     background-size: contain;
 }
 
-.event__icon_temp {
-    background: url(assets/sprite.svg) 75% 80% no-repeat;
+.event__icon {
+    background-image: url(assets/sprite.webp);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.event__icon_temp {
+    background-position: 75% 80%;
 }
 
 .event__icon_temp2 {
-    background: url(assets/sprite.svg) 50% 60% no-repeat;
-    background-size: cover;
+    background-position: 50% 60%;
 }
 
 .event__icon_light {
-    background: url(assets/sprite.svg) 25% 40% no-repeat;
-    background-size: cover;
+   background-position: 25% 40%;
 }
 
 .event__icon_light2 {
-    background: url(assets/sprite.svg) 0 20% no-repeat;
-    background-size: cover;
+    background-position: 0 20%;
 }
 
 .event__icon_schedule {
-    background: url(assets/sprite.svg) 100% 100% no-repeat;
-    background-size: cover;
+    background-position: 100% 100%;
 }
 
 .event__title {
