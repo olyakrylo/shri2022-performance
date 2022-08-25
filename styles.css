@@ -455,23 +455,28 @@ html, body {
 }
 
 .event__icon_temp {
-    background-image: url(assets/icon_temperature.svg);
+    background: url(assets/sprite.svg) 75% 80% no-repeat;
+    background-size: cover;
 }
 
 .event__icon_temp2 {
-    background-image: url(assets/icon_temperature_2.svg);
+    background: url(assets/sprite.svg) 50% 60% no-repeat;
+    background-size: cover;
 }
 
 .event__icon_light {
-    background-image: url(assets/icon_sun.svg);
+    background: url(assets/sprite.svg) 25% 40% no-repeat;
+    background-size: cover;
 }
 
 .event__icon_light2 {
-    background-image: url(assets/icon_sun_2.svg);
+    background: url(assets/sprite.svg) 0 20% no-repeat;
+    background-size: cover;
 }
 
 .event__icon_schedule {
-    background-image: url(assets/icon_scheduled.svg);
+    background: url(assets/sprite.svg) 100% 100% no-repeat;
+    background-size: cover;
 }
 
 .event__title {
